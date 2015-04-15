@@ -3,3 +3,26 @@
 # Install Homebrew
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+# Install software from homebrew
+brew install pwgen
+brew install vim
+brew install youtube-dl
+brew install bash-completion
+brew install csshx
+brew install graphviz
+brew install mtr
+brew install wget
+brew install htop-osx
+brew install mobile-shell
+brew install nmap
+brew install sipcalc
+brew install tmux
+
+# Install brew cask
+brew install brew-cask
+
+# Install software from cask
+brew cask install dropbox
+brew cask install google-chrome
+brew cask install firefox
+
