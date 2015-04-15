@@ -32,4 +32,4 @@ brew install brew-cask
 brew cask install dropbox
 brew cask install google-chrome
 brew cask install firefox
-
+brew cask install adium
