@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# Update system
+echo "I'll try to update your Mac now. You need to be logged in into Mac App Store. You'll be prompted for your user's password (not the app store password!)"
+echo "5s to abort.
+sleep 5
+sudo softwareupdate -i -a
+
 # Install Homebrew
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
