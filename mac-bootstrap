@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Update system
+# kudos: http://osxdaily.com/2012/12/05/9-command-line-tricks-for-mac-os-x-you-should-know/
 echo "I'll try to update your Mac now. You need to be logged in into Mac App Store. You'll be prompted for your user's password (not the app store password!)"
 echo "5s to abort.
 sleep 5
