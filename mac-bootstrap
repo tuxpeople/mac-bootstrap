@@ -7,6 +7,10 @@ echo "5s to abort."
 sleep 5
 sudo softwareupdate -i -a
 
+# Install San Francisco Font
+# kudos: https://github.com/supermarin/YosemiteSanFranciscoFont
+ruby -e "$(curl -fsSL https://raw.github.com/supermarin/YosemiteSanFranciscoFont/master/install)"
+
 # Install Homebrew
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
