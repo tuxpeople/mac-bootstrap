@@ -45,5 +45,5 @@ mkdir ~/git
 cd ~/git
 for i in $(wget -q -O- https://github.com/tuxpeople?tab=repositories | grep tuxpeople | grep Forks | awk '{ print $5 }' | cut -d'/' -f3)
 do
-  git clone https://github.com/tuxpeople/$i.git
+  git clone git@github.com:tuxpeople/$i.git
 done
