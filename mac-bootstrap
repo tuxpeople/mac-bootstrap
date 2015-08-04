@@ -29,6 +29,7 @@ brew install nmap
 brew install sipcalc
 brew install tmux
 brew install tcptraceroute
+brew install fping
 
 # Install brew cask
 brew install caskroom/cask/brew-cask
