@@ -15,22 +15,27 @@ ruby -e "$(curl -fsSL https://raw.github.com/supermarin/YosemiteSanFranciscoFont
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # Install software from homebrew
-brew install pwgen
-brew install vim
-brew install youtube-dl
-brew install bash-completion
-brew install csshx
-brew install graphviz
-brew install mtr
-brew install wget
-brew install htop-osx
-brew install mobile-shell
-brew install nmap
-brew install sipcalc
-brew install tmux
-brew install tcptraceroute
-brew install fping
-brew install apt-dater
+binaries=(
+ pwgen
+ vim
+ youtube-dl
+ bash-completion
+ csshx
+ graphviz
+ mtr
+ wget
+ htop-osx
+ mobile-shell
+ nmap
+ sipcalc
+ tmux
+ tcptraceroute
+ fping
+ apt-dater
+)
+
+echo "Installing homebrew software..."
+brew install ${binaries[@]}
 
 # Add tap and install libvirt-manager
 # See also https://github.com/jeffreywildman/homebrew-virt-manager for info
