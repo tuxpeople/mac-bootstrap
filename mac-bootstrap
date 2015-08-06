@@ -60,6 +60,9 @@ brew cask install adium
 brew cask install skype
 brew cask install cakebrew
 
+# Cleanup...
+brew cleanup
+
 # Checkout all my github repos
 mkdir ~/git
 cd ~/git
