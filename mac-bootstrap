@@ -32,6 +32,11 @@ brew install tcptraceroute
 brew install fping
 brew install apt-dater
 
+# Add tap and install libvirt-manager
+# See also https://github.com/jeffreywildman/homebrew-virt-manager for info
+brew tap jeffreywildman/homebrew-virt-manager
+brew install virt-manager virt-viewer
+
 # Install brew cask
 brew install caskroom/cask/brew-cask
 
