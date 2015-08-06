@@ -53,12 +53,19 @@ brew install virt-manager virt-viewer
 brew install caskroom/cask/brew-cask
 
 # Install software from cask
-brew cask install dropbox
-brew cask install google-chrome
-brew cask install firefox
-brew cask install adium
-brew cask install skype
-brew cask install cakebrew
+apps=(
+ dropbox
+ google-chrome
+ firefox
+ adium
+ skype
+ cakebrew
+ )
+
+# Install apps to /Applications
+# Default is: /Users/$user/Applications
+echo "Installing apps from cask..."
+brew cask install --appdir="/Applications" ${apps[@]}
 
 # Cleanup...
 brew cleanup
