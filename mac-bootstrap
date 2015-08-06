@@ -39,6 +39,10 @@ binaries=(
  tcptraceroute
  fping
  apt-dater
+ webkit2png
+ sshfs
+ tree
+ trash
 )
 
 echo "Installing homebrew software..."
