@@ -67,6 +67,18 @@ apps=(
 echo "Installing apps from cask..."
 brew cask install --appdir="/Applications" ${apps[@]}
 
+# Cask fonts
+brew tap caskroom/fonts
+
+# fonts
+fonts=(
+  font-roboto
+)
+
+# install fonts
+echo "installing fonts..."
+brew cask install ${fonts[@]}
+
 # Cleanup...
 brew cleanup
 
