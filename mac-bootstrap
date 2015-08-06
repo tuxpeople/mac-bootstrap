@@ -46,6 +46,7 @@ brew cask install google-chrome
 brew cask install firefox
 brew cask install adium
 brew cask install skype
+brew cask install cakebrew
 
 # Checkout all my github repos
 mkdir ~/git
