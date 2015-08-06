@@ -11,8 +11,15 @@ sudo softwareupdate -i -a
 # kudos: https://github.com/supermarin/YosemiteSanFranciscoFont
 ruby -e "$(curl -fsSL https://raw.github.com/supermarin/YosemiteSanFranciscoFont/master/install)"
 
-# Install Homebrew
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+# Check for Homebrew,
+# Install if we don't have it
+if test ! $(which brew); then
+ echo "Installing homebrew..."
+ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+fi
+
+# Update homebrew recipes
+brew update
 
 # Install software from homebrew
 binaries=(
