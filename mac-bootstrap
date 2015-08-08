@@ -40,7 +40,7 @@ binaries=(
  fping
  apt-dater
  webkit2png
- sshfs
+# sshfs
  tree
  trash
 )
