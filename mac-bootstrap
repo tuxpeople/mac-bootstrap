@@ -69,7 +69,7 @@ apps=(
 # Install apps to /Applications
 # Default is: /Users/$user/Applications
 echo "Installing apps from cask..."
-brew cask install --appdir="/Applications" ${apps[@]}
+brew cask install ${apps[@]}
 
 # Cask fonts
 brew tap caskroom/fonts
