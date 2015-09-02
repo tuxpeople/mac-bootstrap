@@ -64,6 +64,7 @@ apps=(
  adium
  skype
  cakebrew
+ darktable
  )
 
 # Install apps to /Applications
