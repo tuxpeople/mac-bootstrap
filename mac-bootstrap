@@ -43,6 +43,7 @@ binaries=(
 # sshfs
  tree
  trash
+ homebrew/dupes/whois
 )
 
 echo "Installing homebrew software..."
