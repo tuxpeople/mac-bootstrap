@@ -18,6 +18,9 @@ if test ! $(which brew); then
  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
+# add caskroom
+brew tap caskroom/cask
+
 # Update homebrew recipes
 brew update
 
@@ -53,9 +56,6 @@ brew install ${binaries[@]}
 # See also https://github.com/jeffreywildman/homebrew-virt-manager for info
 brew tap jeffreywildman/homebrew-virt-manager
 brew install virt-manager virt-viewer
-
-# Install brew cask
-brew install caskroom/cask/brew-cask
 
 # Install software from cask
 apps=(
