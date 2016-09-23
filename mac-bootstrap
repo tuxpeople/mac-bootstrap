@@ -9,7 +9,7 @@ sudo softwareupdate -i -a
 
 # Install San Francisco Font
 # kudos: https://github.com/supermarin/YosemiteSanFranciscoFont
-ruby -e "$(curl -fsSL https://raw.github.com/supermarin/YosemiteSanFranciscoFont/master/install)"
+#ruby -e "$(curl -fsSL https://raw.github.com/supermarin/YosemiteSanFranciscoFont/master/install)"
 
 # Check for Homebrew,
 # Install if we don't have it
