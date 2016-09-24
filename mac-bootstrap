@@ -110,6 +110,9 @@ brew cleanup
 # 410628904 Wunderlist: To-Do List & Tasks
 # 407963104 Pixelmator
 # 897814548 Cellist: HTTP debugging proxy
+# 409201541 Pages
+# 409203825 Numbers
+# 409183694 Keynote
 
 masapps=(
   443987910
@@ -121,6 +124,9 @@ masapps=(
   410628904
   407963104
   897814548
+  409201541
+  409203825
+  409183694
 )
 
 # Install:
