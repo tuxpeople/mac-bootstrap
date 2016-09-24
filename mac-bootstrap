@@ -72,6 +72,8 @@ apps=(
  xquartz
  little-snitch
  resilio-sync
+ iterm2
+ spotify
  )
 
 # Install apps to /Applications
