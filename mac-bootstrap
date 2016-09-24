@@ -96,6 +96,34 @@ brew cask install ${fonts[@]}
 # Cleanup...
 brew cleanup
 
+# Install MAS software
+# List:
+# 
+# 443987910 1Password - Password Manager and Secure Wallet
+# 410968114 PDFScanner - Simple document scanning and OCR
+# 824183456 Affinity Photo
+# 404010395 TextWrangler
+# 409789998 Twitter
+# 671736912 FruitJuice - Active Battery Health and Monitoring
+# 410628904 Wunderlist: To-Do List & Tasks
+# 407963104 Pixelmator
+# 897814548 Cellist: HTTP debugging proxy
+
+masapps=(
+  443987910
+  410968114
+  824183456
+  404010395
+  409789998
+  671736912
+  410628904
+  407963104
+  897814548
+)
+
+# Install:
+mas install ${masapps[@]}
+
 # Checkout all my github repos
 mkdir ~/git
 cd ~/git
