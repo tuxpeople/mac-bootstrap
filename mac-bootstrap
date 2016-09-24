@@ -42,20 +42,20 @@ binaries=(
  tcptraceroute
  fping
  apt-dater
+ arping
  webkit2png
+ keybase
+ links
+ lynx
 # sshfs
  tree
  trash
  homebrew/dupes/whois
+ mas
 )
 
 echo "Installing homebrew software..."
 brew install ${binaries[@]}
-
-# Add tap and install libvirt-manager
-# See also https://github.com/jeffreywildman/homebrew-virt-manager for info
-brew tap jeffreywildman/homebrew-virt-manager
-brew install virt-manager virt-viewer
 
 # Install software from cask
 apps=(
@@ -66,12 +66,20 @@ apps=(
  skype
  cakebrew
  darktable
+ franz
+ caskroom/versions/microsoft-office-2011
+ xquartz
  )
 
 # Install apps to /Applications
 # Default is: /Users/$user/Applications
 echo "Installing apps from cask..."
 brew cask install ${apps[@]}
+
+# Add tap and install libvirt-manager
+# See also https://github.com/jeffreywildman/homebrew-virt-manager for info
+brew tap jeffreywildman/homebrew-virt-manager
+brew install virt-manager virt-viewer
 
 # Cask fonts
 brew tap caskroom/fonts
