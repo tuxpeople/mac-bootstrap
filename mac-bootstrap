@@ -71,6 +71,7 @@ apps=(
  caskroom/versions/microsoft-office-2011
  xquartz
  little-snitch
+ resilio-sync
  )
 
 # Install apps to /Applications
