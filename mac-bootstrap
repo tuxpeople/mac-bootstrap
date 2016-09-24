@@ -52,6 +52,7 @@ binaries=(
  trash
  homebrew/dupes/whois
  mas
+ rclone
 )
 
 echo "Installing homebrew software..."
@@ -69,6 +70,7 @@ apps=(
  franz
  caskroom/versions/microsoft-office-2011
  xquartz
+ little-snitch
  )
 
 # Install apps to /Applications
