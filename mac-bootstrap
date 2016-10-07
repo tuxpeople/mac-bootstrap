@@ -74,6 +74,7 @@ apps=(
  resilio-sync
  iterm2
  spotify
+ sequel-pro
  )
 
 # Install apps to /Applications
@@ -103,7 +104,7 @@ brew cleanup
 
 # Install MAS software
 # List:
-# 
+#
 # 443987910 1Password - Password Manager and Secure Wallet
 # 410968114 PDFScanner - Simple document scanning and OCR
 # 824183456 Affinity Photo
