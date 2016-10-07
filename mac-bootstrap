@@ -27,6 +27,7 @@ brew update
 # Install software from homebrew
 binaries=(
  pwgen
+ rtmpdump
  vim
  youtube-dl
  bash-completion
