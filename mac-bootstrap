@@ -100,6 +100,10 @@ fonts=(
 echo "installing fonts..."
 brew cask install ${fonts[@]}
 
+#fix ffmpeg
+brew reinstall ffmpeg --with-faac
+
+
 # Cleanup...
 brew cleanup
 
