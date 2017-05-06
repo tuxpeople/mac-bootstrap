@@ -152,3 +152,11 @@ done
 # Add my Dropbox "bin" folder to path
 echo "export PATH=$PATH:~/Dropbox/Allgemein/bin" >> .profile
 
+# Input the following command into Terminal in order to add a new stack which, by default, will display recently used Applications
+# http://www.makeuseof.com/tag/customise-mac-os-x-dock-hidden-terminal-commands/
+defaults write com.apple.dock persistent-others -array-add '{"tile-data" = {"list-type" = 1;}; "tile-type" = "recents-tile";}'; killall Dock
+
+# From http://osxdaily.com/2012/10/09/best-defaults-write-commands-mac-os-x/
+# Quick Look is one of the most useful aspects of OS X, and being able to select text from the windows seems like a no brainer, so here’s how to enable it:
+defaults write com.apple.finder QLEnableTextSelection -bool TRUE;killall Finder
+
