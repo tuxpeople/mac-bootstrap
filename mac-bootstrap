@@ -31,6 +31,12 @@ chflags nohidden ~/Library/
 # Stop Full Names from Copying with Email Addresses in OS X Mail
 defaults write com.apple.mail AddressesIncludeNameOnPasteboard -bool false
 
+# From defaults-write.com
+# Use plain text as default format in TextEdit
+defaults write com.apple.TextEdit RichText -int 0
+# Toggle Safari DNS Prefetching
+defaults write com.apple.safari WebKitDNSPrefetchingEnabled -boolean false
+
 
 
 #########################################
