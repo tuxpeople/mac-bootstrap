@@ -19,6 +19,8 @@ sudo softwareupdate -i -a
 
 # Input the following command into Terminal in order to add a new stack which, by default, will display recently used Applications
 # http://www.makeuseof.com/tag/customise-mac-os-x-dock-hidden-terminal-commands/
+# Adding twice for applications and documents
+defaults write com.apple.dock persistent-others -array-add '{"tile-data" = {"list-type" = 1;}; "tile-type" = "recents-tile";}'; killall Dock
 defaults write com.apple.dock persistent-others -array-add '{"tile-data" = {"list-type" = 1;}; "tile-type" = "recents-tile";}'; killall Dock
 
 # From http://osxdaily.com/2012/10/09/best-defaults-write-commands-mac-os-x/
