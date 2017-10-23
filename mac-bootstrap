@@ -24,8 +24,12 @@ defaults write com.apple.dock persistent-others -array-add '{"tile-data" = {"lis
 defaults write com.apple.dock persistent-others -array-add '{"tile-data" = {"list-type" = 1;}; "tile-type" = "recents-tile";}'; killall Dock
 
 # From http://osxdaily.com/2012/10/09/best-defaults-write-commands-mac-os-x/
-# Quick Look is one of the most useful aspects of OS X, and being able to select text from the windows seems like a no brainer, so here’s how to enable it:
+# Enable Text Selection in Quick Look Windows
 defaults write com.apple.finder QLEnableTextSelection -bool TRUE;killall Finder
+# Always Show the User Library Folder
+chflags nohidden ~/Library/
+# Stop Full Names from Copying with Email Addresses in OS X Mail
+defaults write com.apple.mail AddressesIncludeNameOnPasteboard -bool false
 
 
 
