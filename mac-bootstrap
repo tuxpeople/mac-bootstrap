@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Sudo Magic :)
+sudo -v
+
 # Update system
 # kudos: http://osxdaily.com/2012/12/05/9-command-line-tricks-for-mac-os-x-you-should-know/
 echo "I'll try to update your Mac now. You may need to be logged in into Mac App Store. You'll be prompted for your user's password (not the app store password!)"
