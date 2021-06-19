@@ -1,5 +1,13 @@
 # mac-bootstrap
 
+---
+**NOTE**
+
+This repository is now not longer actively maintained and therefor archived.
+
+---
+
+
 - verify beeing logged in into MAS
 - run this:
 
